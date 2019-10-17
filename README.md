@@ -1,8 +1,9 @@
 # Escultor
 
-## Qual o Objetivo?
 Construção de uma ferramenta em C++ para realização de esculturas em blocos representados por matrizes digitais.
 
-Componentes:
+## Objetivos:
 
-Fernando Felipe e Rafael Vinicius
+- [x] Criação de arquivo .off
+- [x] Interpretador de arquivo .txt para .off
+- [ ] Interface
