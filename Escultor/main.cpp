@@ -26,7 +26,7 @@ int main()
     string String, comando;
     vector<FiguraGeometrica*> f;
     ifstream fileoff;
-    fileoff.open("C:/Users/PICHAU/Desktop/teste.txt");
+    fileoff.open("C:/Users/PICHAU/Desktop/testinho.txt");
 
     if(fileoff.is_open() == true){
         cout << "Ok" << endl;
@@ -113,11 +113,11 @@ int main()
     }
     cout << "\n";
 
-    for (unsigned i=0; i<8; i++) {
+    for (unsigned i=0; i<f.size(); i++) {
         delete f[i];
     }
 
-    s->writeOFF("C:/Users/PICHAU/Desktop/teste.off");
+    s->writeOFF("C:/Users/PICHAU/Desktop/elipsoide.off");
 
     fileoff.close();
 
