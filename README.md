@@ -9,7 +9,7 @@ Passe as informações das figuras que devem ser implementadas em um arquivo (.t
 - [x] Interpretador de arquivo .txt para .off
 - [ ] Interface
 
-### Componentes:
+## Componentes:
 
 - **Fernando Felipe**: http://github.com/Parrrley01
 - **Rafael Vinicius**: http://github.com/rafaelvini123
