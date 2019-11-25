@@ -67,7 +67,7 @@ As cores estão no formato rgb, sendo a escolha do usuário se quiser fazer algu
 
 (Inserir desenhos)
 
-## Componentes:
+## Colaboradores:
 
 - **Fernando Felipe**: http://github.com/Parrrley01
 - **Rafael Vinicius**: http://github.com/rafaelvini123
