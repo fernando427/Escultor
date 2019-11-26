@@ -1,76 +1,76 @@
-# Escultor
+# Sculptor
 
-Construção de uma ferramenta em C++ para realização de esculturas em blocos representados por matrizes digitais.
-Passe as informações das figuras que devem ser implementadas em um arquivo (.txt), em seguida abra o arquivo .off em um programa de visualização. 
+Construction of a C ++ tool for making block sculptures represented by digital matrices.
+Pass the information of the figures to be implemented in a (.txt) file, then open the .off file in a visualization program.
 
-## Objetivos:
+## Goals:
 
-- [x] Criação de arquivo .off
-- [x] Interpretador de arquivo .txt para .off
+- [x] Creation .off file
+- [x] Converter .txt file to .off
 - [x] Interface
 
-## Ferramentas do Projeto
+## Tools of project
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/48501389/69596980-2d496900-0fe3-11ea-8d1f-02ea530564ac.png">
 </p>
-Através das classes já desenvolvidas no Sculptor, é possível gerar as funcionalidades na interface.
+Through the classes already developed in Sculptor, it is possible to generate the functionality in the interface.
 
 ### PutVoxel
 <p align="center">
 <img src="https://user-images.githubusercontent.com/48501389/69596721-53223e00-0fe2-11ea-9999-5bbd25e6f28d.PNG">
 </p>
-Pinta um pixel na posição desejada da folha de desenho.
+Paint a pixel at the desired position of the drawing sheet
 
 ### CutVoxel
 <p align="center">
 <img src="https://user-images.githubusercontent.com/48501389/69596794-92e92580-0fe2-11ea-975a-80d3bdcfb897.PNG">
 </p>
-Apaga um pixel na posição desejada da folha de desenho.
+Erase a pixel at the desired position of the drawing sheet
 
 ### PutBox
 <p align="center">
 <img src="https://user-images.githubusercontent.com/48501389/69596821-abf1d680-0fe2-11ea-811a-e224ddd221bf.PNG">
 </p>
-Pinta pixels em formato de caixa, sendo configurado o seu tamanho na interface.
+Paints box-size pixels, being their size is set in the interface.
 
 ### CutBox
 <p align="center">
 <img src="https://user-images.githubusercontent.com/48501389/69596830-b6ac6b80-0fe2-11ea-8b70-8f566a76ebf4.PNG">
 </p>
-Apaga pixels em formato de caixa, sendo configurado o seu tamanho na interface.
+Erase box-size pixels, being their size is set in the interface.
 
 ### PutSphere
 <p align="center">
 <img src="https://user-images.githubusercontent.com/48501389/69596854-d80d5780-0fe2-11ea-99e1-8d6df0cab718.PNG">
 </p>
-Pinta pixels em formato de esfera, sendo configurado o seu raio na interface.
+Paints sphere-shaped pixels, being their radius is set in the interface.
 
 ### CutSphere
 <p align="center">
 <img src="https://user-images.githubusercontent.com/48501389/69596870-e0659280-0fe2-11ea-949c-e29ccea6fd24.PNG">
 </p>
-Apaga pixels em formato de esfera, sendo configurado o seu raio na interface.
+Erase sphere-shaped pixels, being their radius is set in the interface.
 
 ### PutEllipsoid
 <p align="center">
 <img src="https://user-images.githubusercontent.com/48501389/69596904-fb380700-0fe2-11ea-9a0b-6cba777dde0e.PNG">
 </p>
-Pinta pixels em formato de elipse, sendo configurado os seus raios na interface.
+Paints ellipse-shaped pixels, being its radii defined at the interface.
 
 ### CutEllipsoid
 <p align="center">
 <img src="https://user-images.githubusercontent.com/48501389/69596917-02f7ab80-0fe3-11ea-88cd-93ee845b6ee0.PNG">
 </p>
-Apaga pixels em formato de elipse, sendo configurado os seus raios na interface.
+Erase ellipse-shaped pixels, being its radii defined at the interface.
 
-### Cores
+### Colors
 <p align="center">
 <img src="https://user-images.githubusercontent.com/48501389/69597037-59fd8080-0fe3-11ea-9200-be82a84399d2.png">
 </p>
-As cores estão no formato rgb, sendo a escolha do usuário se quiser fazer alguma alteração na coloração do desenho.
+The colors are in rgb format, being the user's choice if they want to make any changes to the coloring of the drawing.
 
-## Colaboradores:
+## Contributors:
 
 - **Fernando Felipe**: http://github.com/Parrrley01
 - **Rafael Vinicius**: http://github.com/rafaelvini123
