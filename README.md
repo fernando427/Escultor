@@ -72,5 +72,5 @@ The colors are in rgb format, being the user's choice if they want to make any c
 
 ## Contributors:
 
-- **Fernando Felipe**: http://github.com/Parrrley01
+- **Fernando Felipe**: http://github.com/fernando427
 - **Rafael Vinicius**: http://github.com/rafaelvini123
